@@ -22,6 +22,7 @@ public:
  * @param student_id
  */
 Student(const std::string& first_name, const std::string& last_name, float age, std::string student_id);
+~Student();
     
 std::string getStudentID() const;
     

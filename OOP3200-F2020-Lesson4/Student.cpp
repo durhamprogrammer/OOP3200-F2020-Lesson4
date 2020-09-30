@@ -25,6 +25,9 @@ Student::Student(const std::string& first_name, const std::string& last_name, co
 {
 }
 
+Student::~Student()
+= default;
+
 /**
  * @return std::string
  */

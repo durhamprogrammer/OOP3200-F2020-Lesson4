@@ -19,7 +19,9 @@ public:
  */
 
 Person(std::string first_name, std::string last_name, float age);
-    
+virtual ~Person() = 0; // need to give this a body to avoid unresolved external
+
+	
 float getAge() const;
     
 /**

@@ -27,6 +27,9 @@ Professor::Professor(const std::string& first_name, const std::string& last_name
 {
 }
 
+Professor::~Professor()
+= default;
+
 /**
  * @return std::string
  */

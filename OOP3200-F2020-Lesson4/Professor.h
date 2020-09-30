@@ -22,6 +22,7 @@ public:
  * @param employee_id
  */
 Professor(const std::string& first_name, const std::string& last_name, float age, std::string employee_id);
+~Professor();
     
 std::string getEmployeeID() const;
     

@@ -25,6 +25,9 @@ Person::Person(std::string first_name, std::string last_name, const float age)
 
 }
 
+Person::~Person()
+= default;
+
 /**
  * @return float
  */
